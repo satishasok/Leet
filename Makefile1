@@ -1,0 +1,7 @@
+# build an executable named Leet from Leet.cpp
+  all: Leet.cpp 
+	g++ -std=c++11 -Wall -Werror -pedantic -O3 -g -o Leet Leet.cpp
+
+  clean:
+	  rm -rf Leet.dSYM/ 
+	  rm -f Leet 
